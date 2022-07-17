@@ -303,7 +303,28 @@ border: 1px solid rgba(33, 150, 243, 1);
 .about-title {
   width: 270px;
 }
-
+/**
+|============================
+| Характеристика компанії іконки-початок
+|============================
+*/
+.visual-adout {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+/**
+|============================
+| Характеристика компанії іконки-кінець
+|============================
+*/
 .about-title:not(:first-child) {
   margin-left: 30px;
 
@@ -401,6 +422,7 @@ h2.info-about {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .btn {
@@ -535,6 +557,86 @@ color: #757575;
 }
 /**
   |============================
+  | Приєднатися-Соціальні іконки
+  |============================
+*/
+.social {
+display: flex;
+flex-direction: column;
+}
+.footer-addresa{
+flex-direction: column;
+}
+.social-links {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.social-link-footer{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.socials-icon-footer{
+fill: rgba(255, 255, 255, 1);
+}
+
+.social-link-footer:hover {
+  background-color: #2196F3;
+}
+.social-link-footer:hover .socials-icon-footer {
+  fill: #FFFFFF;;
+}
+.social{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.social-title{
+padding-top: 12px;
+margin-bottom: 20px;
+font-weight: 700;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+/**
+  |============================
   | Соціальні іконки
   |============================
 */
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: rgba(175, 177, 184, 1);
+  background-color: #FFFFFF;;
+  border-radius: 50%;
+}
+.socials-icon {
+  fill:rgba(175, 177, 184, 1);
+}
+
+.socials-link:hover {
+  background-color: #2196F3;
+}
+.socials-link:hover .socials-icon {
+  fill: #FFFFFF;;
+}
+
