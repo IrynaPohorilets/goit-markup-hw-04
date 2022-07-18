@@ -554,6 +554,12 @@ border: 1px solid #2196F3;
 }
 
 .section-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -569,6 +575,14 @@ border: 1px solid #2196F3;
 | Footer section
 |============================
 */
+.footer-container {
+  display: flex;
+}
+.footer-addresa,
+.footer-social {
+flex-basis: 25%;
+}
+
 
 .footer-item:not(:last-child){
 margin-bottom: 9px;}
@@ -631,11 +645,12 @@ color: #757575;
 
 
 .footer-social {
-  display: flex;
-    flex-direction: column;
-    gap: 10px;
-    outline: 2px solid rebeccapurple;
+  display: inline-flex; 
+  align-items: baseline; 
+  flex-direction: column;
+  gap: 10px;
 }
+
 }
 .footer-addresa{
 flex-direction: column;
@@ -668,7 +683,8 @@ margin-right: 70px;
 }
 
 .social-title {
-padding-bottom: 20px;
+  padding-top: 12px;
+margin-bottom: 20px;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
